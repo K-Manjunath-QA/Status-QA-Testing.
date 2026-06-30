@@ -15,7 +15,14 @@ Additionally, through data sync verification and backend log monitoring on the W
 * **Root Cause Analysis:** Extracted `adb logcat` data reveals a severe Slow Binder warning on `app.status.mobile.ipc.IStatusGoService`. The background data sync monopolizes the main thread, resulting in a temporary Application Not Responding (ANR) state.
 * **Artifacts Provided:** Screen recording, raw `.txt` system logs, and formal Jira ticket. <br>
 📂 **[View Mobile Performance Bug Resources Here](./Mobile_Performance_Bug)**
+<details>
+  <summary><b><u>🎥 Click here to expand and watch the Mobile Screen Freeze Video.</u></b></summary>
+  <br>
+  
+  https://github.com/user-attachments/assets/3a9195b6-c7c5-4c81-a62f-e2c58e689ba8
 
+</details>
+<br>
 #### 💻 Bug 2: Market Tab Crash & Sync Failure (Functional)
 * **Issue:** Navigating to the Market tab triggers an unhandled `IndexDefect`, causing a fatal crash.
 * **Root Cause Analysis:** Desktop logs reveal upstream failures during initial state loading, specifically a `JSON.parse` syntax error while handling revealed addresses and an ENS resolver failure (`ens_getName`).
