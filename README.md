@@ -13,14 +13,14 @@ Additionally, through data sync verification and backend log monitoring on the W
 The main UI thread locks up completely for ~10.7 seconds during login/navigation. <br>
 <b>Root Cause Analysis: Extracted adb logcat data reveals a severe Slow Binder warning on app.status.mobile.ipc.IStatusGoService.</b> <br>
 The background data sync monopolizes the main thread, resulting in a temporary Application Not Responding (ANR) state.
-Artifacts Provided: Screen recording, raw .txt system logs, and formal Jira ticket.
-📂 [View Mobile Bug Artifacts Here]
+Artifacts Provided: Screen recording, raw .txt system logs, and formal Jira ticket.<br>
+📂 <a href = "/Mobile_Performance_Bug">View Mobile Performance Bug Resources Here</a>
 
 <h4>💻 Bug 2: Market Tab Crash & Sync Failure (Functional)Issue:</h4>
 Navigating to the Market tab triggers an unhandled IndexDefect, causing a fatal crash.
 <b>Root Cause Analysis: Desktop logs reveal upstream failures during initial state loading, specifically a JSON.parse syntax error while handling revealed addresses and an ENS resolver failure (ens_getName).</b><br>
-Artifacts Provided: UI error stack trace screenshot, background electron logs, and formal Jira ticket.
-📂 [View Desktop Bug Artifacts Here](Link to your Desktop_Market_Bug folder)
+Artifacts Provided: UI error stack trace screenshot, background electron logs, and formal Jira ticket.<br>
+📂 <a href = "/Desktop_Market_Bug">View Desktop Bug Resources Here</a>
 
 <h4>🤖 QA Workflow Optimization: AI-Assisted Reporting</h4>
 To optimize the manual testing lifecycle and reduce administrative overhead, the defect reports in this repository were structured using an AI-assisted pipeline.<br>
