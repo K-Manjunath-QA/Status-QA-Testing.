@@ -1,0 +1,23 @@
+06-26 22:41:19.330 30551 30551 W Activity: PerfMonitor: Slow Operation: Activity app.status.mobile/.StatusQtActivity onCreate took 1218ms
+06-26 22:41:19.376 30551 30551 W Looper  : PerfMonitor looperActivity : package=app.status.mobile/.StatusQtActivity time=0ms latency=1422ms running=0ms  procState=-1  historyMsgCount=3 (msgIndex=2 wall=121ms seq=2 running=67ms runnable=17ms io=20ms h=android.app.ActivityThread$H w=110) (msgIndex=3 wall=1292ms seq=3 running=217ms runnable=33ms io=54ms h=android.app.ActivityThread$H w=159)
+06-26 22:42:37.752  4927 30859 W MiuiPerfServiceClient: interceptAndQueuing:30551|app.status.mobile|251|214|923889193362395|Slow main thread|2
+06-26 22:44:29.191 30551 30763 W BpBinder: Slow Binder: BpBinder transact took 202 ms, interface=app.status.mobile.ipc.IStatusGoService, code=1 oneway=false
+06-26 22:44:31.962 30551 30762 W BpBinder: Slow Binder: BpBinder transact took 2589 ms, interface=app.status.mobile.ipc.IStatusGoService, code=1 oneway=false
+06-26 22:44:31.962 30551 30764 W BpBinder: Slow Binder: BpBinder transact took 2590 ms, interface=app.status.mobile.ipc.IStatusGoService, code=1 oneway=false
+06-26 22:44:32.280 30551 30766 W BpBinder: Slow Binder: BpBinder transact took 2908 ms, interface=app.status.mobile.ipc.IStatusGoService, code=1 oneway=false
+06-26 22:44:32.290 30551 30763 W BpBinder: Slow Binder: BpBinder transact took 2385 ms, interface=app.status.mobile.ipc.IStatusGoService, code=1 oneway=false
+06-26 22:44:32.675 30551 30765 W BpBinder: Slow Binder: BpBinder transact took 3301 ms, interface=app.status.mobile.ipc.IStatusGoService, code=1 oneway=false
+06-26 22:44:33.000 30551 30767 W BpBinder: Slow Binder: BpBinder transact took 3658 ms, interface=app.status.mobile.ipc.IStatusGoService, code=1 oneway=false
+06-26 22:44:33.477 30551 30761 W BpBinder: Slow Binder: BpBinder transact took 4105 ms, interface=app.status.mobile.ipc.IStatusGoService, code=1 oneway=false
+06-26 22:44:34.925 30551 30762 W BpBinder: Slow Binder: BpBinder transact took 2963 ms, interface=app.status.mobile.ipc.IStatusGoService, code=1 oneway=false
+06-26 22:44:36.230 30551 30762 W BpBinder: Slow Binder: BpBinder transact took 1304 ms, interface=app.status.mobile.ipc.IStatusGoService, code=1 oneway=false
+06-26 22:44:42.774 30551 30764 W BpBinder: Slow Binder: BpBinder transact took 262 ms, interface=app.status.mobile.ipc.IStatusGoService, code=1 oneway=false
+06-26 22:44:43.959 30551 30762 W BpBinder: Slow Binder: BpBinder transact took 947 ms, interface=app.status.mobile.ipc.IStatusGoService, code=1 oneway=false
+06-26 22:44:43.973 30551 30767 W BpBinder: Slow Binder: BpBinder transact took 961 ms, interface=app.status.mobile.ipc.IStatusGoService, code=1 oneway=false
+06-26 22:44:45.654 30551 30762 W BpBinder: Slow Binder: BpBinder transact took 647 ms, interface=app.status.mobile.ipc.IStatusGoService, code=1 oneway=false
+06-26 22:44:47.571 30551 30767 W BpBinder: Slow Binder: BpBinder transact took 2545 ms, interface=app.status.mobile.ipc.IStatusGoService, code=1 oneway=false
+06-26 22:44:50.697 30551 30763 W BpBinder: Slow Binder: BpBinder transact took 10759 ms, interface=app.status.mobile.ipc.IStatusGoService, code=1 oneway=false
+06-26 22:44:57.033 30551 30767 W BpBinder: Slow Binder: BpBinder transact took 651 ms, interface=app.status.mobile.ipc.IStatusGoService, code=1 oneway=false
+06-26 22:44:58.249 30551 30762 W BpBinder: Slow Binder: BpBinder transact took 1882 ms, interface=app.status.mobile.ipc.IStatusGoService, code=1 oneway=false
+06-26 22:50:21.047 30551 30767 W BpBinder: Slow Binder: BpBinder transact took 3100 ms, interface=app.status.mobile.ipc.IStatusGoService, code=1 oneway=false
+06-26 22:50:21.108 30551 30763 W BpBinder: Slow Binder: BpBinder transact took 3177 ms, interface=app.status.mobile.ipc.IStatusGoService, code=1 oneway=false
