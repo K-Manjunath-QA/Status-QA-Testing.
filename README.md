@@ -23,11 +23,14 @@ Additionally, through data sync verification and backend log monitoring on the W
 
 </details>
 <br>
+
 #### 💻 Bug 2: Market Tab Crash & Sync Failure (Functional)
 * **Issue:** Navigating to the Market tab triggers an unhandled `IndexDefect`, causing a fatal crash.
 * **Root Cause Analysis:** Desktop logs reveal upstream failures during initial state loading, specifically a `JSON.parse` syntax error while handling revealed addresses and an ENS resolver failure (`ens_getName`).
 * **Artifacts Provided:** UI error stack trace screenshot, background electron logs, and formal Jira ticket. <br>
 📂 **[View Desktop Bug Resources Here](./Desktop_Market_Bug)**
+
+<br/>
 
 #### 🤖 QA Workflow Optimization: AI-Assisted Reporting
 To optimize the manual testing lifecycle and reduce administrative overhead, the defect reports in this repository were structured using an AI-assisted pipeline.
